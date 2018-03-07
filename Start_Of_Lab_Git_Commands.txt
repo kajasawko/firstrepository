@@ -1,0 +1,5 @@
+cd /c/users/g00299788/downloads/
+git init
+rm -rf firstrepository
+git clone https://github.com/kajasawko/firstrepository.git
+cd firstrepository 
