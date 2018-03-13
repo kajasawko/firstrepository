@@ -10,7 +10,9 @@ public class Index{
     System.out.println("1. Break");
     System.out.println("2. Switch");
     System.out.println("3. Methods");
-    System.out.println("4. Exit");
+    System.out.println("4. Shadowing");
+    System.out.println("5. Overloading");
+    System.out.println("6. Exit");
 
     System.out.println();
 
@@ -33,7 +35,21 @@ public class Index{
         System.out.println("");
         Methods.main(null);
         break;
-       case 4:
+
+      case 4:
+       System.out.println("Shadowing lab");
+	   System.out.println("");
+	   Methods.main(null);
+       break;
+
+       case 5:
+	   System.out.println("Overloading lab");
+	   System.out.println("");
+	   Methods.main(null);
+       break;
+
+
+       case 6:
        	System.out.println("Exiting...");
        	break;
       default:
