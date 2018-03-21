@@ -12,8 +12,13 @@ public class Index{
     System.out.println("3. Methods");
     System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
-    System.out.println("6. First Array");
-    System.out.println("7. Exit");
+    System.out.println("6. Arithmatic");
+    System.out.println("7. First Array");
+    System.out.println("8. Second Array");
+    System.out.println("9. Try Catch");
+    System.out.println("10. Enhanced For");
+    System.out.println("11. Student Search");
+    System.out.println("12. Exit");
 
     System.out.println();
 
@@ -51,13 +56,43 @@ public class Index{
 
 
       case 6:
-	   System.out.println("First Array");
+	   System.out.println("Arithmatic");
 	   System.out.println("");
-	   FirstArray.main(null);
+	   Arithmatic.main(null);
+       break;
+
+       case 7:
+	   	System.out.println("First Array");
+	   	System.out.println("");
+	   	FirstArray.main(null);
+       break;
+
+       case 8:
+	   	System.out.println("Second Array");
+	   	System.out.println("");
+	   	SecondArray.main(null);
+       break;
+
+       case 9:
+	   	System.out.println("Try Catch");
+	   	System.out.println("");
+	   	TryCatch.main(null);
+       break;
+
+       case 10:
+	   	System.out.println("Enhanced For");
+	   	System.out.println("");
+	   	EnhancedFor.main(null);
+       break;
+
+       case 11:
+	   	System.out.println("Student Search");
+	   	System.out.println("");
+	   	StudentSearch.main(null);
        break;
 
 
-       case 7:
+       case 12:
        	System.out.println("Exiting...");
        	break;
       default:
